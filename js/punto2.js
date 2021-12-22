@@ -1,9 +1,9 @@
-const nota1 = prompt("ingrese un numero");
-const nota2 = prompt("ingrese un numero");
-const nota3 = prompt("ingrese un numero");
-promedio = (nota1 + nota2 + nota3) / 3;
+const num1 = parseInt(prompt("Ingrese primera Nota"));
+const num2 = parseInt(prompt("Ingrese segunda Nota"));
+const num3 = parseInt(prompt("Ingrese tercera Nota"));
+
+const promedio = (num1 + num2 + num3) / 3;
+
 if (promedio >= 7) {
-  console.log("promocionado");
-} else if (promedio < 7) {
-  console.log("des");
+  alert(`Promocionado`);
 }
